@@ -183,7 +183,7 @@ sr.reveal(
 
 /* Menu */
 /* API */
-const APIURLMenu = `https:/www.themealdb.com/api/json/v1/1/search.php?s=${justSt()}`;
+const APIURLMenu = `https://www.themealdb.com/api/json/v1/1/search.php?s=${justSt()}`;
 
 let Menu = document.getElementById("Menu-inner");
 
