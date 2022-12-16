@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>MealWeek</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Box Icons -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <!-- Swiper Slider -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Script -->
+  <script src="script.js" defer></script>
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Swiper Slider -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!-- Icon -->
+  <link rel="shortcut icon" type="image/png" href="./images/1.png" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="nav bd-container">
+      <a href="#" class="nav-logo">MealWeek</a>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#app" class="nav-link">App</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+        </ul>
+      </div>
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+  <!-- Main -->
+  <main class="main">
+    <!-- Zone de flottaison -->
+    <div class="home" id="home">
+      <div class="home-container bd-container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper" id="home-inner"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- À Propos -->
+    <div class="about section bd-container" id="about">
+      <div class="about-container bd-grid">
+        <div class="about-data">
+          <span class="section-subtitle about-initial">About Us</span>
+          <h2 class="section-title about-initial">
+            We cook the best food
+          </h2>
+          <p class="about-description">
+            in the World, with excellent customer service,
+            the best meals and at the best price, come visit us.
+            <a href="https://www.marmiton.org/">Marmiton </a> and the <a
+              href="https://www.750g.com/home_rubrique_-_recettes.htm">750g</a> site were real examples and these are
+            two companies that gave us the idea to make the site
+          </p>
+          <a href="#" class="button">Explore the History</a>
+        </div>
+        <img src="./images/spencer-davis-vJsj-hgOEG0-unsplash.jpg" alt="aboutImg" class="about-img" />
+      </div>
+    </div>
+    <!-- Menu -->
+    <div class="menu section bd-container" id="menu">
+      <div class="section-subtitle">Special
+        <p>Eat 5 fruits and vegetables a day!</p>
+      </div>
+      <h2 class="section-title">Choose your favourite dish</h2>
+      <div class="menu-container bd-grid" id="Menu-inner"></div>
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close-button">&ShortLeftArrow;</span>
+          <p class="name-modal">Ingredients :</p>
+          <div class="recipe" id="recipe1"></div>
+          <div class="recipe" id="recipe2"></div>
+          <div class="recipe" id="recipe3"></div>
+          <div class="recipe" id="recipe4"></div>
+          <div class="recipe" id="recipe5"></div>
+          <div class="recipe" id="recipe6"></div>
+          <div class="recipe" id="recipe7"></div>
+          <div class="recipe" id="recipe8"></div>
+          <div class="recipe" id="recipe9"></div>
+          <div class="recipe" id="recipe10"></div>
+        </div>
+      </div>
+    </div>
+    <!-- App Mobile -->
+    <div class="app section bd-container" id="app">
+      <div class="app-container bd-grid">
+        <div class="app-data">
+          <span class="section-subtitle app-initial">App</span>
+          <h2 class="section-title app-initial">Application is under development 😉</h2>
+          <p class="app-description">
+            You will soon be able to find our app and download it, make reservations,
+            order food, see your deliveries on the way and much more.
+          </p>
+          <div class="app-stores">
+            <a href="https://www.apple.com/fr/app-store/"><img src="./images/app1.png" alt="appStore"
+                class="app-store" /></a>
+            <a href="https://play.google.com/store/apps?hl=fr&gl=US&pli=1"><img src="./images/app2.png" alt="playStore"
+                class="app-store" /></a>
+          </div>
+        </div>
+
+        <img src="./images/movil-app.png" alt="appImg" class="app-img" />
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact section bd-container" id="contact">
+      <div class="contact-container bd-grid">
+        <div class="contact-data">
+          <span class="section-subtitle contact-initial">Your Requests</span>
+          <h2 class="section-title contact-initial">Contact</h2>
+          <p class="contact-description">
+            If you have a problem in your delivery, contact us and we will assist you quickly,
+            with our 24/7 chat service.
+          </p>
+        </div>
+        <div class="contact-button">
+          <a href="#" class="button">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="footer section bd-container">
+    <div class="footer-container bd-grid">
+      <div class="footer-content">
+        <a href="#" class="footer-logo">MealWeek</a>
+        <span class="footer-description">Restaurant</span>
+        <div>
+          <a href="https://fr-fr.facebook.com/" class="footer-facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/" class="footer-instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://twitter.com/" class="footer-twitter"><i class="bx bxl-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-content">
+        <h3 class="footer-title">Services</h3>
+        <ul>
+          <li><a href="#" class="footer-link">Delivery</a></li>
+          <li><a href="#" class="footer-link">Price</a></li>
+          <li><a href="#" class="footer-link">Fast food</a></li>
+          <li><a href="#" class="footer-link">Reserve Your Order</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-content">
+        <h3 class="footer-title">Information</h3>
+        <ul>
+          <li><a href="#" class="footer-link">Events</a></li>
+          <li><a href="#" class="footer-link">Contact Us</a></li>
+          <li><a href="#" class="footer-link">Privacy Policy</a></li>
+          <li><a href="#" class="footer-link">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-content">
+        <h3 class="footer-title">Address</h3>
+        <ul>
+          <li>Arles - France</li>
+          <li>mealweek.food@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer-copy">
+      Thanks to <a href="https://www.themealdb.com/api.php">TheMealDB</a> for using the API <br />
+      And Thanks also to <a href="https://unsplash.com/fr">Unsplash</a> for the photos <br />
+      &#169; 2022 Luckas Vintenon
+    </p>
+  </footer>
+
+  <!-- Flèche pour remontez en haut -->
+  <a href="#" class="scroll-top" id="scroll-top">
+    <i class="bx bx-chevron-up scroll-top-icon"></i>
+  </a>
+
+</body>
+
+</html>
