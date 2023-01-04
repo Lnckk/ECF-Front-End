@@ -20,11 +20,11 @@ Alors j'espère que cela vous plaira 😁😁.
 
 # EN  
 
-My goal ? Create a model for desktop and phone format on the subject of food and then create the site approximately that's what I did and here is the result to make this site I needed TheMealDB API and Unsplash for some photos.
+My goal? Create a model for the desktop and phone format on the subject of food and then create the site approximately that's what I did and here is the result to make this site I needed TheMealDB API and Unsplash for some photos.
 
 Here is some information about the site:
  
-- First of all my header with a logo and a menu to go to the different sections of my site.
+- First of all, my header with a logo and a menu to go to the different sections of my site.
 - Then on my floating zone there are the best dishes offered by our application (optional).
 - I put these colors (green) on the headlines to remind healthy foods, such as vegetables.
 - The next section there is information on our website that is rather crisp, go see 😜.
